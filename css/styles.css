@@ -1,0 +1,68 @@
+body{
+    background-image: url('/img/fondo1.jpeg');
+    background-size: cover
+}
+header{
+    text-align: center;
+}
+.custom-nav .nav-link {
+    font-size: 15px; /* Aumenta el tamaño de la fuente */
+    color: black; /* Cambia el color del texto a negro */
+}
+
+.custom-nav .nav-link.active,
+.custom-nav .nav-link:focus {
+    background-color: transparent;
+    color: black;
+}
+
+.custom-nav .nav-link:hover {
+    background-color: transparent;
+    color: black;
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel {
+    width: 60%;
+    margin: 0 auto;
+}
+.welcome-text {
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    margin: 10px 0;
+    color: #333;
+}
+.container {
+    max-width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #f86bd0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 60px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.footer-icons a{
+    text-decoration: none;
+}
+.footer-icons a img{
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+    margin: 0 10px;
+}
+.footer-icons a img:hover{
+    transform: scale(1,2);
+}
